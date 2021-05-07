@@ -1,0 +1,40 @@
+Users and Groups
+
+User groups play an important role on Linux systems. They provide an easy way for a select groups of users to share files with each other.
+They also allow sysadmins to more effectively manage user privileges, since they can assign privileges to groups rather than individual users.
+
+1. Groups
+In Linux, a group is a collection of users.
+The main purpose of the groups is to define a set of privileges like read, write, or execute permission for a given resource that can be shared among the users within the group. 
+Users can be added to an existing group to utilize the privileges it grants.
+In Linux there are two types of group; primary group and secondary group.
+
+A.Primary group 
+Primary group is also known as private group. Primary group is compulsory. 
+Every user must be a member of a primary group and there can be only one primary group for each member.
+
+B.Secondary group
+Secondary groups are those that users might be added to once they already have accounts. Secondary group memberships show up in the /etc/group file.
+The /etc/group file assigns names to user groups (e.g., 500 = devops) and records secondary group members.
+
+2.Users
+A user is an entity, in a Linux operating system, that can manipulate files and perform several other operations.
+Each user is assigned an ID that is unique for each user in the operating system. 
+In this post, we will learn about users and commands which are used to get information about the users.
+
+A.Sudo user
+The sudo command allows you to run programs with the security privileges of another user (by default, as the superuser). 
+
+
+
+3.Commands :
+
+su:switch user
+adduser: add a user to the system.
+userdel: delete a user account and related files.
+addgroup: add a group to the system.
+delgroup: remove a group from the system.
+usermod: modify a user account.
+chage: change user password expiry information.
+sudo: run one or more commands as another user (typically with superuser permissions).
+cat:viewing content of the file.
