@@ -1,0 +1,49 @@
+Basic Commands
+
+1. pwd — When you first open the terminal, you are in the home directory of your user.
+To know which directory you are in, you can use the “pwd” command. It gives us the absolute path, which means the path that starts from the root. 
+The root is the base of the Linux file system. 
+It is denoted by a forward slash( / ). 
+The user directory is usually something like "/home/username".
+
+2. ls — Use the "ls" command to know what files are in the directory you are in.
+You can see all the hidden files by using the command “ls -a”.
+
+3.cd — Use the "cd" command to go to a directory. 
+If you just type “cd” and press enter, it takes you to the home directory. To go back from a folder to the folder before that, you can type “cd ..” .
+
+4. mkdir & rmdir — Use the mkdir command when you need to create a folder or a directory. 
+For example, if you want to make a directory called “DIY”, then you can type “mkdir DIY”. 
+
+5. rm - Use the rm command to delete files and directories. 
+Use "rm -r" to delete just the directory. It deletes both the folder and the files it contains when using only the rm command.
+
+6. touch — The touch command is used to create a file. It can be anything, from an empty txt file to an empty zip file. 
+
+7. cp — Use the cp command to copy files through the command line. 
+It takes two arguments: The first is the location of the file to be copied, the second is where to copy.
+
+8.mv — Use the mv command to move files through the command line. We can also use the mv command to rename a file.
+For example, if we want to rename the file “text” to “new”, we can use “mv text new”. It takes the two arguments, just like the cp command.
+
+9.cat — Use the cat command to display the contents of a file. It is usually used to easily view programs.
+
+10.df — Use the df command to see the available disk space in each of the partitions in your system.
+
+11.chmod — Use chmod to make a file executable and to change the permissions granted to it in Linux.
+
+12. echo — The "echo" command helps us move some data, usually text into a file. 
+
+13.uname — Use uname to show the information about the system 
+
+14.its used to give the output of the file.
+
+2.Directories:
+
+1./bin is a standard subdirectory of the root directory that contains the executable (i.e., ready to run) programs
+2./mnt directory and its subdirectories are intended for use as the temporary mount points for mounting storage devices.
+3./boot directory holds files used in booting the operating system. 
+4./root is the home directory
+5./usr has unique system resources
+6./media directory contains subdirectories where removable media devices inserted into the computer are mounted.
+7./var is a standard subdirectory of the root directory in Linux that contains files to which the system writes data during the course of its operation.
