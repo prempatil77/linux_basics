@@ -1,0 +1,19 @@
+Partition in Linux:
+
+1. Partitioning also allows you to divide your hard drive into isolated sections, where each section behaves as its own hard drive.
+2. Partitioning is particularly useful if you run multiple operating systems.
+3. There are lots of powerful tools for creating, removing, and otherwise manipulating disk partitions in Linux.
+
+Steps to create a partition:
+
+1. list partitions.
+2. label a partition. 
+3. Use mkpart to make a partition. 
+4. let the partition be created/settle.
+5. Attach the file system to the partition.
+6. Create a Mount point directory. 
+7. Add entry in fstab.
+8. Systemctl daemon-reload.
+9. Mount the partition on the directory.
+10. Reboot.
+
