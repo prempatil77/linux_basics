@@ -1,0 +1,17 @@
+In Linux,
+1. Logical Volume Manager (LVM) is a device mapper framework that provides logical volume management for the Linux kernel.
+2. Logical Volume Management (LVM) creates a layer of abstraction over physical storage, allowing you to create logical storage volumes. 
+3. You can think of LVM as dynamic partitions.
+4. LVM is used for the following purposes: Creating single logical volumes of multiple physical volumes or entire hard disks  allowing for dynamic volume resizing.
+
+
+
+
+
+* Commands: 
+
+1.create a pv - pvcreate [devices] 
+2.show a pv - pvdisplay 3.create a vg - vgcreate vgname [pv]
+4.show a vg - vgdisplay
+5.create a lv - lvcreate -n name -L [size] name 
+6.show a lv - lvdisplay
